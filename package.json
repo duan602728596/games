@@ -1,4 +1,7 @@
 {
+  "name": "snake",
+  "version": "0.0.1",
+  "description": "贪吃蛇",
   "scripts": {
     "start": "./node_modules/.bin/gulp"
   },
