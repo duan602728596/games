@@ -1,0 +1,31 @@
+$base-width: 20px
+$len: 20
+
+.clearfix
+  &:after
+    content: '\200B'
+    display: block
+    height: 0
+    clear: both
+.game, .tools
+  float: left
+.game
+  position: relative
+  width: $base-width * $len
+  height: $base-width * $len
+  border: 5px solid #ddd
+.game-canvas
+  position: absolute
+  top: 0
+  left: 0
+  width: $base-width * $len
+  height: $base-width * $len
+.game-background
+  z-index: 1
+.game-area
+  z-index: 2
+.tools
+  margin: 20px 0 0 30px
+  text-align: center
+.tools-btn
+  cursor: pointer

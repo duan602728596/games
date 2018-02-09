@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    link(rel='stylesheet' href='../style/index.css')
+  body
+    div.game-box.clearfix
+      div.game
+        canvas.game-canvas.game-background#game-background(width='400' height='400')
+        canvas.game-canvas.game-area#game-area(width='400' height='400')
+      div.tools
+        input.tools-btn#new-game(type='button' value='新游戏')
+        input.tools-btn#game-pause(type='button' value='暂停')
+        p
+          span 长度：
+          span#long
+    script(src='../script/background.js')
+    script(src='../script/game.js')
