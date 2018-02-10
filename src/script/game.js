@@ -166,7 +166,8 @@
     snakeTimer = setTimeout(snakeMove, speed);
   }
 
-  /*** 初始化函数 ***/
+  /* ========== 初始化函数 ========== */
+
   function init(): void{
     clearTimeout(foodTimer);
     clearTimeout(snakeTimer);

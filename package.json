@@ -3,12 +3,17 @@
   "version": "0.0.1",
   "description": "贪吃蛇",
   "scripts": {
-    "start": "./node_modules/.bin/gulp"
+    "start": "./node_modules/.bin/gulp",
+    "eslint": "./node_modules/.bin/eslint src"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.39",
     "@babel/preset-env": "^7.0.0-beta.39",
+    "babel-eslint": "^8.2.1",
     "browser-sync": "^2.23.6",
+    "eslint": "^4.17.0",
+    "eslint-plugin-flowtype": "^2.42.0",
+    "eslint-plugin-react": "^7.6.1",
     "gulp": "github:gulpjs/gulp#4.0",
     "gulp-babel": "^8.0.0-beta.1",
     "gulp-changed": "^3.2.0",
